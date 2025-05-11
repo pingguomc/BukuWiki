@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/grass_block.svg').default,
     description: (
       <>
-        BukuWiki以原版为基础，为所有Minecraft玩家提供游玩教程
-        用最新手小白的语言去教会所有玩家游玩Minecraft
+        BukuWiki 以原版为基础，为所有 Minecraft 玩家提供游玩教程，并用最新手小白的语言去教会所有玩家游玩 Minecraft
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/crafting_table.svg').default,
     description: (
       <>
-        从0开始启动你的第一个Minecraft客户端，再到安装模组加载器
-        以及游玩途中的报错你都能在这里找到解决方案
+        从0开始启动你的第一个 Minecraft 客户端，再到安装模组加载器，以及游玩途中的报错你都能在这里找到解决方案
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/furnace.svg').default,
     description: (
       <>
-        BukuWiki全部开源，由各路社区开发者为BukuWiki编写内容
-        感谢各位的支持和贡献！
+        BukuWiki 全部开源，由各路社区开发者为 BukuWiki 编写和开发内容，感谢各位的支持和贡献！
       </>
     ),
   },
