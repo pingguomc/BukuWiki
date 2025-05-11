@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            让我们开始吧 🥵
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Minecraft游玩教程">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
