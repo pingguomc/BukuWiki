@@ -32,6 +32,10 @@ const config = {
     locales: ['zh-Hans'],
   },
 
+  plugins: [
+      'docusaurus-plugin-image-zoom',
+  ],
+
   presets: [
     [
       'classic',
@@ -55,7 +59,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(36 36 36 / 80%)',
+          },
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'BukuWiki',
@@ -120,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Buku Team.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Moralts.`,
       },
       prism: {
         theme: prismThemes.github,
