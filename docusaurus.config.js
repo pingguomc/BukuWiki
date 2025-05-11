@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BukuWiki',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Minecraft玩家们的终极游玩指南',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -24,9 +24,6 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   onBrokenAnchors: 'warn',
   
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
@@ -70,6 +67,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // 插件配置文件
     ({
       zoom: {
         selector: '.markdown :not(em) > img',
@@ -78,6 +76,7 @@ const config = {
           dark: 'rgb(36 36 36 / 80%)',
           },
       },
+      // 原生配置文件
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'BukuWiki',
@@ -113,8 +112,12 @@ const config = {
             title: '文档',
             items: [
               {
-                label: 'Tutorial',
+                label: '通用',
                 to: '/intro',
+              },
+              {
+                label: 'PC',
+                to: '/PC/intro',
               },
             ],
           },
