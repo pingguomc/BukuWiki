@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/furnace.svg').default,
     description: (
       <>
-        BukuWiki全部开源，由各路社区开发者为BukuWiki便携内容
+        BukuWiki全部开源，由各路社区开发者为BukuWiki编写内容
         感谢各位的支持和贡献！
       </>
     ),
