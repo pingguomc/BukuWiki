@@ -1,6 +1,6 @@
 <div align="center">
   <div>
-    <img src="./static/img/book.png" alt="BukuWiki Logo" height="200" width="200"/>
+    <img src="./static/img/logo.svg" alt="BukuWiki Logo" height="200" width="200"/>
   </div>
   <b>
     BukuWiki
@@ -38,14 +38,23 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 克隆到本地后，自己修改需要修改的部分
 3. 在本地build成功且预期符合之后，再进行提交PR合并
+4. 等待Dev和所有者审核更改后并入主线
 
 <h1 align="center">🌸贡献者</h1>
 
+感谢所有贡献者的支持！
 <a href="https://github.com/Moralts/BukuWiki/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Moralts/Bukuwiki" />
 </a>
-
 <h1 align="center">🌟Stars历史图</h1>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Moralts/BukuWiki&type=Date)](https://www.star-history.com/#Moralts/BukuWiki&Date)
 
+<h1 align="center">📄许可协议</h1>
+
+> 所有内容均采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)。
+>
+> - 必须注明原作者署名
+> - 禁止商业使用
+> - 禁止修改和再分发修改版本
+> - 禁止在未经许可的情况下复制和传播内容
