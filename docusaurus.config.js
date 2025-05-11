@@ -40,7 +40,7 @@ const config = {
             id: 'docs-pc',
             path: 'docs-pc',
             routeBasePath: 'PC',
-            editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/docs-java',
+            editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/docs-pc',
             sidebarPath: './sidebars.js',
             editCurrentVersion: true,
             showLastUpdateAuthor: true,
@@ -122,16 +122,8 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'QQ Group',
+                href: 'https://qm.qq.com/q/lbNpVgNxza',
               },
             ],
           },
