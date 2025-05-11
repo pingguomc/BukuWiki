@@ -40,7 +40,7 @@ const config = {
             id: 'docs-pc',
             path: 'docs-pc',
             routeBasePath: 'PC',
-            editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/docs-java'
+            editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/docs-java',
             sidebarPath: './sidebars.js',
             editCurrentVersion: true,
             showLastUpdateAuthor: true,
