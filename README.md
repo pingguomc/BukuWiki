@@ -19,7 +19,7 @@
 
 <p align="center">
   <img alt="Static Badge" src="https://img.shields.io/badge/Build-Docusaurus-brightgreen">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/Moralts/BukuWiki">
+  <img alt="Static Badge" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-brightgreen">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Moralts/BukuWiki">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Moralts/BukuWiki">
   <img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-orange">
@@ -31,13 +31,13 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
 
 <h1 align="center">📖开始阅读</h1>
 
-我们使用CloudFlare Page提供的Pages构建服务，转到[docs.buku.wiki](https://docs.buku.wiki)
+我们使用[CloudFlare Page](https://pages.cloudflare.com/)提供的Pages构建服务，转到[docs.buku.wiki](https://docs.buku.wiki/)
 
 <h1 align="center">✒️为Wiki做出贡献</h1>
 
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 克隆到本地后，自己修改需要修改的部分
-3. 在本地build成功且预期符合之后，再进行提交PR
+3. 在本地build成功且预期符合之后，再进行提交PR合并
 
 <h1 align="center">🌸贡献者</h1>
 
