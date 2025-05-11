@@ -34,6 +34,18 @@ const config = {
 
   plugins: [
       'docusaurus-plugin-image-zoom',
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+            id: 'docs-pc',
+            path: 'docs-pc',
+            routeBasePath: 'PC',
+            editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/docs-java'
+            sidebarPath: './sidebars.js',
+            editCurrentVersion: true,
+            showLastUpdateAuthor: true,
+            showLastUpdateTime: true,
+        }],
   ],
 
   presets: [
@@ -79,6 +91,13 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: '通用',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'PC',
+            docsPluginId: 'docs-pc'
           },
           {
             href: 'https://github.com/Moralts/BukuWiki',
