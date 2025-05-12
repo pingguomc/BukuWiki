@@ -144,7 +144,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Moralts.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BukuWiki.`,
       },
       prism: {
         theme: prismThemes.github,
