@@ -43,9 +43,11 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
 <h1 align="center">🌸贡献者</h1>
 
 感谢所有贡献者的支持！
+
 <a href="https://github.com/Moralts/BukuWiki/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Moralts/Bukuwiki" />
 </a>
+
 <h1 align="center">🌟Stars历史图</h1>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Moralts/BukuWiki&type=Date)](https://www.star-history.com/#Moralts/BukuWiki&Date)
