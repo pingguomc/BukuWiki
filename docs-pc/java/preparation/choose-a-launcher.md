@@ -29,3 +29,4 @@ sidebar_position: 3
 |[PCL 2 (Plain Craft Launcher 2)](https://afdian.com/p/0164034c016c11ebafcb52540025c377)|目前最流行的启动器之一，半开源，界面美观且流畅，功能最全面，**推荐新手首选**|
 |[BakaXL](https://www.bakaxl.com/)|也是个老牌启动器，半开源，界面采用了 Windows 10 的磁贴风格。更新速度缓慢，支持联机，但对模组、整合包等资源的下载支持有所欠缺|
 |[PrismLauncher](https://prismlauncher.org/)|基于国外经典开源的启动器 [MultiMC](https://multimc.org/) 开发。相比 MultiMC，这个启动器界面要更美观一些，还支持了模组和整合包的下载，对版本的管理也更好，但是因为目录结构不同，版本管理和上面那几个相比还是有点复杂的原因**并不很适合新手使用**|
+|[Modrinth App](https://modrinth.com/app)|占据MC模组平台的半壁江山 Modrinth 开发的开源启动器，因为优秀的操作逻辑和现代化的界面以及自我集成的模组市场令许多玩家着迷。但它还是个半成品，不管是功能还是启动方面上仍然有待进步。不推荐新手使用，没有汉化的同时只有正版登陆，但用于制作整合包确实个不错的工具。|
