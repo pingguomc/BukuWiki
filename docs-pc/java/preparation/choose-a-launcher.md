@@ -11,9 +11,13 @@ sidebar_position: 3
 
 官方启动器 (下文简称 "官启") 即 Minecraft 官方 Mojang 开发的启动器。
 
-官启可以从 [官网](https://www.minecraft.net/zh-hans/download) 下载，也可从 Windows 10/11 的[商店](https://apps.microsoft.com/detail/9PGW18NPBZV5?hl=zh-cn&gl=HK&ocid=pdpshare) 下载。
+官启可以从 [官网](https://www.minecraft.net/zh-hans/download) 下载，也可从 Windows 10/11 的 [商店](https://apps.microsoft.com/detail/9PGW18NPBZV5?hl=zh-cn&gl=HK&ocid=pdpshare) 下载。
 
 但是官启在国内因为某种原因，很难正常的使用。可能第一次打开就会直接提示 "无法更新 Minecraft 原生启动器"。而且，官启安装像 Forge、Fabric 这样的模组加载器也只能手动安装，相比第三方启动器能实现自动安装要麻烦的多。下载游戏资源文件时，因为只会通过 Mojang 官方的服务器下载，速度会很感人。
+
+当然，官启也不是没有优点，官启可以获得 Mojang 官方的最新修复和最新更改，例如 Mojang 在最近的 2025年5月28日凌晨 ，Mojang的验证和API服务炸膛了。于是在2小时候更换了验证和登录API，并没有修复原本坏掉的API服务。这使得第三方的启动器无法通过原本的API为玩家提供正版登录，虽然第三方开发者可以快速修复，但这也是官启的优势。
+
+综合来看，还是第三方启动器更加适合我们。
 
 ## 第三方启动器
 
@@ -30,3 +34,23 @@ sidebar_position: 3
 |[BakaXL](https://www.bakaxl.com/)|也是个老牌启动器，半开源，界面采用了 Windows 10 的磁贴风格。更新速度缓慢，支持联机，但对模组、整合包等资源的下载支持有所欠缺|
 |[PrismLauncher](https://prismlauncher.org/)|基于国外经典开源的启动器 [MultiMC](https://multimc.org/) 开发。相比 MultiMC，这个启动器界面要更美观一些，还支持了模组和整合包的下载，对版本的管理也更好，但是因为目录结构不同，版本管理和上面那几个相比还是有点复杂的原因**并不很适合新手使用**|
 |[Modrinth App](https://modrinth.com/app)|占据MC模组平台的半壁江山 Modrinth 开发的开源启动器，因为优秀的操作逻辑和现代化的界面以及自我集成的模组市场令许多玩家着迷。但它还是个半成品，不管是功能还是启动方面上仍然有待进步。不推荐新手使用，没有汉化的同时只有正版登陆，但用于制作整合包确实个不错的工具。|
+
+在易用性和实用性上，我们更推荐使用 PCL 2 (Plain Craft Launcher 2) 来作为我们的第一款第三方启动器，该启动器由两个分支，需要辨认一下：
+
+|            版本类型             |                             描述                             |                        相关地址                        |
+| :-----------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: |
+|              PCL2               |                 作者 龙腾猫跃 制作的PCL2原版                 |     [龙腾猫跃的爱发电](https://afdian.com/a/LTCat)     |
+| PCL2 CE (PCL Community Edition) | 由活跃的社区玩家们通过PCL2源码进行二次开发的社区版本，由社区进行维护，一般来说社区版有很多比PCL2原版的新鲜内容和奇奇怪怪的bug | [Github仓库](https://github.com/PCL-Community/PCL2-CE) |
+
+BukuTeam 为 PCL2 CE (PCL Community Edition) 提供了镜像服务，可以去 [Buku文件站](https://file.buku.wiki) 获取最新版本。
+
+:::warning
+
+一般来说，如果你想尝鲜新功能，可以去试试PCL2 CE版本，如果你只是想要稳定，那PCL2原版足矣。**我们推荐新手使用PCL2原版，稳定比什么都重要**。
+
+:::
+
+PCL2原版的下载方式龙腾猫跃只在爱发电提供了下载链接，你可以在龙腾猫跃的[置顶帖子](https://afdian.com/p/0164034c016c11ebafcb52540025c377)中找到下载链接。推荐你使用第三个蓝奏云的链接，无需登录，下载很快。
+
+
+

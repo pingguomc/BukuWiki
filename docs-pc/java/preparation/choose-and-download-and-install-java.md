@@ -3,6 +3,9 @@ title: 选择、下载和安装 Java 环境
 sidebar_position: 3
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 选择、下载和安装 Java 环境
 
 ## 什么是 Java？
@@ -23,6 +26,7 @@ Java 环境对 Minecraft 来说至关重要，是其运行的基础。因为 Min
 
 - 高版本 Minecraft（1.17 及以上版本）必需
 - 部分新模组可能需要这个版本
+- 在Java母公司 [甲骨文官网](https://www.oracle.com/java/technologies/downloads/) 可以下载到这些版本
 
 ### 该在哪里下载 Java 17？
 
@@ -32,8 +36,9 @@ Java 环境对 Minecraft 来说至关重要，是其运行的基础。因为 Min
 |:-:|:-:|:-:|
 |Adoptium OpenJDK | 无 |[Github 下载 (镜像)](https://github.moeyy.xyz/https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jre_x64_windows_hotspot_17.0.15_6.msi)|
 |Microsoft OpenJDK | 微软搞出来的 OpenJDK|[微软官网下载](https://aka.ms/download-jdk/microsoft-jdk-17.0.15-windows-x64.msi)|
-|Azul Zulu OpenJDK | 这个 JDK 似乎比其他的几个运行效率都要高一点，游戏帧数可能会更高 |[官网下载](https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jre17.0.15-win_x64.msi)|
+|Azul Zulu OpenJDK | 由Azul公司搞出来的优化过的JDK，这个 JDK 似乎比其他的几个运行效率都要高一点，游戏帧数可能会更高 |[官网下载](https://cdn.azul.com/zulu/bin/zulu17.58.21-ca-jre17.0.15-win_x64.msi)|
 
 ## 安装 Java
 
-只需要从上面的表格选择一个 Java，或者从 [Java 官网](https://java.com) 下载 Java，然后运行安装包一路 Next (下一步) 即可。你的 Minecraft 启动器应会识别到你安装的 Java。
+只需要从上面的表格选择一个 Java，然后运行安装包一路 Next (下一步) 即可。你的 Minecraft 启动器应会识别到你安装的 Java。
+
