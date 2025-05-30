@@ -14,7 +14,7 @@
 </div>
 
 <p>
-  
+
 </p>
 
 <p align="center">
@@ -25,22 +25,22 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-orange">
 </p>
 
-<h1 align="center">🤔什么是BukuWiki？</h1>
+# 🤔什么是BukuWiki？
 
 BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki，旨在为Minecraft玩家提供最完整，最好的游玩指南。
 
-<h1 align="center">📖开始阅读</h1>
+# 📖开始阅读
 
 我们使用[CloudFlare Page](https://pages.cloudflare.com/)提供的Pages构建服务，转到[docs.buku.wiki](https://docs.buku.wiki/)
 
-<h1 align="center">✒️为Wiki做出贡献</h1>
+# ✒️为Wiki做出贡献
 
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 克隆到本地后，自己修改需要修改的部分
 3. 在本地build成功且预期符合之后，再进行提交PR合并
 4. 等待Dev和所有者审核更改后并入主线
 
-<h1 align="center">🌸贡献者</h1>
+# 🌸贡献者
 
 感谢所有贡献者的支持！
 
@@ -48,7 +48,7 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
   <img src="https://contrib.rocks/image?repo=Moralts/Bukuwiki" />
 </a>
 
-<h1 align="center">🌟Stars历史图</h1>
+# 🌟Stars历史图
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Moralts/BukuWiki&type=Date)](https://www.star-history.com/#Moralts/BukuWiki&Date)
 
