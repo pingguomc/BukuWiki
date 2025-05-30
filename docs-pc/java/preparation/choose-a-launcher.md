@@ -34,12 +34,13 @@ sidebar_position: 3
 |[BakaXL](https://www.bakaxl.com/)|也是个老牌启动器，半开源，界面采用了 Windows 10 的磁贴风格。更新速度缓慢，支持联机，但对模组、整合包等资源的下载支持有所欠缺|
 |[PrismLauncher](https://prismlauncher.org/)|基于国外经典开源的启动器 [MultiMC](https://multimc.org/) 开发。相比 MultiMC，这个启动器界面要更美观一些，还支持了模组和整合包的下载，对版本的管理也更好，但是因为目录结构不同，版本管理和上面那几个相比还是有点复杂的原因**并不很适合新手使用**|
 |[Modrinth App](https://modrinth.com/app)|占据MC模组平台的半壁江山 Modrinth 开发的开源启动器，因为优秀的操作逻辑和现代化的界面以及自我集成的模组市场令许多玩家着迷。但它还是个半成品，不管是功能还是启动方面上仍然有待进步。不推荐新手使用，没有汉化的同时只有正版登陆，但用于制作整合包确实个不错的工具。|
+|[CurseForge APP](https://www.curseforge.com/download/app)|CurseForge 一个集成了Minecraft模组和整合包的多游戏模组平台，该平台仍受到多数模组开发者的托管选择，在国内没有很多优势，下载慢且容易被墙。其开发的APP虽然可以作为启动器使用，但他的规范仍然是多游戏的模组框架类型，不方便操作的同时增加了学习成本。**不推荐新手使用**。|
 
 在易用性和实用性上，我们更推荐使用 PCL 2 (Plain Craft Launcher 2) 来作为我们的第一款第三方启动器，该启动器由两个分支，需要辨认一下：
 
 |            版本类型             |                             描述                             |                        相关地址                        |
 | :-----------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: |
-|              PCL2               |                 作者 龙腾猫跃 制作的PCL2原版                 |     [龙腾猫跃的爱发电](https://afdian.com/a/LTCat)     |
+|            PCL2 原版            |                 作者 龙腾猫跃 制作的PCL2原版                 |     [龙腾猫跃的爱发电](https://afdian.com/a/LTCat)     |
 | PCL2 CE (PCL Community Edition) | 由活跃的社区玩家们通过PCL2源码进行二次开发的社区版本，由社区进行维护，一般来说社区版有很多比PCL2原版的新鲜内容和奇奇怪怪的bug | [Github仓库](https://github.com/PCL-Community/PCL2-CE) |
 
 BukuTeam 为 PCL2 CE (PCL Community Edition) 提供了镜像服务，可以去 [Buku文件站](https://file.buku.wiki) 获取最新版本。
