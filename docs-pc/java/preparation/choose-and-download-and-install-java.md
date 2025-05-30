@@ -3,8 +3,6 @@ title: 选择、下载和安装 Java 环境
 sidebar_position: 3
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 选择、下载和安装 Java 环境
 
