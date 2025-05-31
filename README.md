@@ -25,6 +25,7 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-F38020?style=flat-square&logo=cloudflarepages">
 </p>
 
+<div align="center">
 <h1 align="center">🤔什么是BukuWiki？</h1>
 
 BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki，旨在为Minecraft玩家提供最完整，最好的游玩指南。
@@ -60,3 +61,5 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
 > - 禁止商业使用
 > - 禁止修改和再分发修改版本
 > - 禁止在未经许可的情况下复制和传播内容
+
+</div>
