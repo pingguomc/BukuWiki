@@ -14,33 +14,33 @@
 </div>
 
 <p>
-
+  
 </p>
 
 <p align="center">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Build-Docusaurus-brightgreen">
-  <img alt="Static Badge" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-brightgreen">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Moralts/BukuWiki">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Moralts/BukuWiki">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-orange">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Build-Docusaurus-3ECC5F?style=flat-square&logo=docusaurus">
+  <img alt="Static Badge" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-ED592F?style=flat-square&logo=creativecommons">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Moralts/BukuWiki?style=flat-square&logo=github">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Moralts/BukuWiki?style=flat-square&logo=github">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-F38020?style=flat-square&logo=cloudflarepages">
 </p>
 
-# 🤔什么是BukuWiki？
+<h1 align="center">🤔什么是BukuWiki？</h1>
 
 BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki，旨在为Minecraft玩家提供最完整，最好的游玩指南。
 
-# 📖开始阅读
+<h1 align="center">📖开始阅读</h1>
 
 我们使用[CloudFlare Page](https://pages.cloudflare.com/)提供的Pages构建服务，转到[docs.buku.wiki](https://docs.buku.wiki/)
 
-# ✒️为Wiki做出贡献
+<h1 align="center">✒️为Wiki做出贡献</h1>
 
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 克隆到本地后，自己修改需要修改的部分
 3. 在本地build成功且预期符合之后，再进行提交PR合并
 4. 等待Dev和所有者审核更改后并入主线
 
-# 🌸贡献者
+<h1 align="center">🌸贡献者</h1>
 
 感谢所有贡献者的支持！
 
@@ -48,7 +48,7 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
   <img src="https://contrib.rocks/image?repo=Moralts/Bukuwiki" />
 </a>
 
-# 🌟Stars历史图
+<h1 align="center">🌟Stars历史图</h1>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Moralts/BukuWiki&type=Date)](https://www.star-history.com/#Moralts/BukuWiki&Date)
 
