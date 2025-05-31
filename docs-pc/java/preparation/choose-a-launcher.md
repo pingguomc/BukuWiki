@@ -43,7 +43,7 @@ sidebar_position: 3
 |            PCL2 原版            |                 作者 龙腾猫跃 制作的PCL2原版                 |     [龙腾猫跃的爱发电](https://afdian.com/a/LTCat)     |
 | PCL2 CE (PCL Community Edition) | 由活跃的社区玩家们通过PCL2源码进行二次开发的社区版本，由社区进行维护，一般来说社区版有很多比PCL2原版的新鲜内容和奇奇怪怪的bug | [Github仓库](https://github.com/PCL-Community/PCL2-CE) |
 
-BukuTeam 为 PCL2 CE (PCL Community Edition) 提供了镜像服务，可以去 [Buku文件站](https://file.buku.wiki) 获取最新版本。
+BukuTeam 为 PCL2 CE (PCL Community Edition) 提供了**镜像服务**，可以去 [Buku文件站](https://file.buku.wiki) 获取最新版本。
 
 :::warning
 
@@ -51,7 +51,19 @@ BukuTeam 为 PCL2 CE (PCL Community Edition) 提供了镜像服务，可以去 [
 
 :::
 
-PCL2原版的下载方式龙腾猫跃只在爱发电提供了下载链接，你可以在龙腾猫跃的[置顶帖子](https://afdian.com/p/0164034c016c11ebafcb52540025c377)中找到下载链接。推荐你使用第三个蓝奏云的链接，无需登录，下载很快。
+PCL2的下载方式龙腾猫跃**只在爱发电**提供了下载链接，你可以在龙腾猫跃的[置顶帖子](https://afdian.com/p/0164034c016c11ebafcb52540025c377)中找到下载链接。推荐你使用第三个蓝奏云的链接，无需登录，下载很快。
+
+将PCL2本体放在一个文件夹里面，在**路径中尽可能不有中文**，否则可能会出一些奇奇怪怪的bug，不好说，别放就对了。
+
+:::tip
+
+不推荐你将文件夹和其中的PCL2启动器放在**C盘目录下（例如桌面）**，C盘是Windows的运行盘符，如果被占满会导致启动不了系统等等问题，所以不要把**大型游戏和Minecraft**放在C盘下。
+
+你可以选择D盘或者其他盘符，但注意，**一定要留有足够的空间**。
+
+:::
+
+你可以双击启动PCL2，这就是第三方启动器了。其他启动器例如HMCL启动器，同理，在上方的表格中找到链接，下载下来，按照PCL2的步骤一步一步来即可。
 
 
 
