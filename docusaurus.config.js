@@ -144,7 +144,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BukuWiki.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <b>BukuTeam And Github Contributors</b>. All Rights Reserved.`,
       },
       prism: {
         theme: prismThemes.github,
