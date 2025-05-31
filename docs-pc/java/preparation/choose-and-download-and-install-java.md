@@ -1,6 +1,6 @@
 ---
 title: 选择、下载和安装 Java 环境
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 

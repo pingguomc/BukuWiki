@@ -1,6 +1,6 @@
 ---
 title: 选择一个启动器
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # 选择一个启动器

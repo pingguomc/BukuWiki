@@ -1,7 +1,7 @@
 ---
 title: 开始阶段
 slug: /start
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # 准备阶段
