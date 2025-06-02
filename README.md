@@ -2,15 +2,13 @@
   <div>
     <img src="./static/img/logo.svg" alt="BukuWiki Logo" height="200" width="200"/>
   </div>
-  <b>
-    BukuWiki
-  </b>
-  <div>
-    Minecraft玩家们的终极指南
-  </div>
-  <b>
-    （图标灵感来源于开源安卓软件 Shizuku）
-  </b>
+  
+# BukuWiki
+  
+Minecraft玩家们的终极指南
+
+**（图标灵感来源于开源安卓软件 Shizuku）**
+
 </div>
 
 <p>
