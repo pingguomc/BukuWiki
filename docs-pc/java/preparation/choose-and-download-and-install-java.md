@@ -6,8 +6,6 @@ sidebar_position: 2
 
 # 选择、下载和安装 Java 环境
 
-## 什么是 Java？
-
 Java 环境对 Minecraft 来说至关重要，是其运行的基础。因为 Minecraft 是基于 Java 编程语言开发的，有了合适的 Java 环境，游戏才能顺利启动和正常运行，同时也能更好地支持各种模组的安装与使用，为玩家带来更丰富的游戏体验。
 
 ## Java 有哪些？
