@@ -41,10 +41,10 @@ sidebar_position: 1
 
 * Forge: 模组加载器。通常大型模组都使用的是 Forge 而不是 Fabric。相比 Fabric 来说优化模组没那么多，启动速度也略逊于 Fabric。
 * Fabric: 也是一个模组加载器，自从高版本 (1.16.5+) 后便成为与 Forge 不相上下的热门模组加载器。相比 Forge 来说，Fabric 虽然没有什么大型模组，但是它的优化模组数量是远超过 Forge 的。
-* NeoForge: 1.20。1 后因为 Forge 开发团队部分开发者对 Forge 的领头人不满，基于 Forge 开发的一个模组加载器。NeoForge 与原 Forge 有着不同的发展路线。
+* NeoForge: 1.20.1 后因为 Forge 开发团队部分开发者对 Forge 的领头人不满，基于 Forge 开发的一个模组加载器。NeoForge 与原 Forge 有着不同的发展路线。NeoForge 全新的架构和API让他在 1.21 以上版本十分吃香，从体验和性能能够超过 Forge。
 * Optifine: 老牌优化模组，能够大幅度提升游戏帧数，并添加光影，是高版本之前的必装模组之一。但是高版本后 Optifine 的兼容性越来越糟糕，甚至经常会出现 OpenGL 错误。建议高版本玩家首选 Sodium (Fabric) 和 Embeddium (Forge)。想添加光影可以选择 Iris (Fabric) 和 Oculus (Forge)。
 
-Forge 与 Fabric 不可共存，只能选择其中之一。Fabric 不可添加 Forge 的模组，但 Forge 可以通过 [信雅互联](https://www.mcmod.cn/class/11627.html) 运行 Fabric 的大部分模组。
+Forge 与 Fabric 不可共存，只能选择其中之一。Fabric 不可添加 Forge 的模组，但 Forge 可以通过 [信雅互联](https://www.mcmod.cn/class/11627.html) 运行 Fabric 的大部分模组。可自行研究。
 
 一切准备好之后，点击下方的 "开始下载" 按钮。
 
