@@ -14,6 +14,14 @@ const config = {
   tagline: 'Minecraft玩家们的终极游玩指南',
   favicon: 'img/favicon.ico',
 
+  future: {
+      v4: true,
+      experimental_faster: {
+          rspackBundler: true, // required flag
+          rspackPersistentCache: true, // new flag
+      },
+  },
+  
   // Set the production url of your site here
   url: 'https://docs.buku.wiki',
   // Set the /<baseUrl>/ pathname under which your site is served
