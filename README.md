@@ -16,11 +16,11 @@ Minecraft玩家们的终极指南
 </p>
 
 <p align="center">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Build-Docusaurus-3ECC5F?style=flat-square&logo=docusaurus">
-  <img alt="Static Badge" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-ED592F?style=flat-square&logo=creativecommons">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Moralts/BukuWiki?style=flat-square&logo=github">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Moralts/BukuWiki?style=flat-square&logo=github">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-F38020?style=flat-square&logo=cloudflarepages">
+  <a href="https://docusaurus.io/"><img alt="Static Badge" src="https://img.shields.io/badge/Build-Docusaurus-3ECC5F?style=flat-square&logo=docusaurus"></a>
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"><img alt="Static Badge" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-ED592F?style=flat-square&logo=creativecommons"></a>
+  <a href="https://github.com/Moralts/BukuWiki/commits/main/"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Moralts/BukuWiki?style=flat-square&logo=github"></a>
+  <a href="https://github.com/Moralts/BukuWiki/commits/main/"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Moralts/BukuWiki?style=flat-square&logo=github"></a>
+  <a href="https://pages.cloudflare.com/"><img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-F38020?style=flat-square&logo=cloudflarepages"></a>
 </p>
 
 <div align="center">
