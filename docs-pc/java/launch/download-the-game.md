@@ -49,7 +49,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="mcmod" label="MC百科">![mcmod-sinytra-connector](./assets/mcmod-sinytra-connector.png)</TabItem>
   <TabItem value="modrinth" label="Modrinth">![modrinth-sinytra-connector](./assets/modrinth-sinytra-connector.png)</TabItem>
-  <TabItem value="curseforge" label="CurseForge">![modrinth-sinytra-connector](./assets/modrinth-sinytra-connector.png)</TabItem>
+  <TabItem value="curseforge" label="CurseForge">![curseforge-sinytra-connector](./assets/curseforge-sinytra-connector.png)</TabItem>
 </Tabs>
 
 :::
