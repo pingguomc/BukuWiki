@@ -17,11 +17,11 @@ sidebar_position: 1
 
 :::
 
-打开 PCL 2 之后，你会看到如下界面。
+打开 PCL2 之后，你会看到如下界面。
 
 ![pcl2-home](./assets/pcl2-home.png)
 
-这便是PCL2启动器的主页，接下来我会帮助你快速认识这个启动器：
+这便是 PCL2 启动器的主页，接下来我会帮助你快速认识这个启动器：
 
 ![about-pcl2-home](./assets/about-pcl2-home.png)
 
