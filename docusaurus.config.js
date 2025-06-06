@@ -43,7 +43,7 @@ const config = {
       async: false,
     },
     {
-      src: '../js/script.js',
+      src: 'https://docs.buku.wiki/js/script.js',
       async: true,
     },
   ],
