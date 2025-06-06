@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## 什么是Mod加载器？
 
-Mod加载器是Minecraft的**核心扩展工具**，它使游戏能够加载和运行第三方修改（Mod）。没有加载器，绝大多数Mod都无法运行。目前主流的Mod加载器包括Forge、Fabric等，它们各有特点，适用于不同需求。
+Mod加载器是Minecraft的**核心扩展工具**，它使游戏能够加载和运行第三方修改（Mod）。没有加载器，绝大多数Mod都无法运行。目前主流的Mod加载器包括 Forge、Fabric 等，它们各有特点，适用于不同需求。
 
 :::warning
 
