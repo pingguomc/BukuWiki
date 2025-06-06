@@ -37,6 +37,17 @@ const config = {
     locales: ['zh-Hans'],
   },
 
+  scripts: [
+    {
+      src: 'https://cdn.jsdmirror.cn/npm/pangu@4.0.7/dist/browser/pangu.min.js',
+      async: false,
+    },
+    {
+      src: './js/script.js',
+      async: true,
+    },
+  ],
+
   plugins: [
       'docusaurus-plugin-image-zoom',
       [
