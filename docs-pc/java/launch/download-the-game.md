@@ -17,7 +17,7 @@ sidebar_position: 2
 
 ![pcl2-download-official-version](./assets/pcl2-download-official-version.png)
 
-如果想要尝鲜，体验一下当小白鼠的感觉的话，可以选择下载预览版本（预览版本一般是 1.X.X-preXX）。如果觉得预览版本还不够新，可以选择快照版本 (快照版本的命名通常为 XXwXXa)，快照版本通常每周发布一次，也是最不稳定的版本。通览版和快照版本虽然有模组 (一般是 Fabric)，但是模组适配的数量极其稀少。
+如果想要尝鲜，体验一下当小白鼠的感觉的话，可以选择下载预览版本（预览版本一般是 1.X.X-preXX）。如果觉得预览版本还不够新，可以选择快照版本 (快照版本的命名通常为 XXwXXa)，快照版本通常每周发布一次，也是最不稳定的版本。通览版和快照版本虽然有模组 (一般是 Fabric )，但是模组适配的数量极其稀少。
 
 ![pcl2-download-pre-version](./assets/pcl2-download-pre-version.png)
 

@@ -22,7 +22,7 @@ Java 环境对 Minecraft 来说至关重要，是其运行的基础。因为 Min
 
 - 高版本 Minecraft（1.17 及以上版本）必需
 - 部分新模组可能需要这个版本
-- 在Java母公司 [甲骨文官网](https://www.oracle.com/java/technologies/downloads/) 可以下载到这些版本
+- 在 Java 母公司 [甲骨文官网](https://www.oracle.com/java/technologies/downloads/) 可以下载到这些版本
 
 ### 该在哪里下载 Java ？
 
