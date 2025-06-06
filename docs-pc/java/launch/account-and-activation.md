@@ -1,6 +1,6 @@
 ---
 title: 账号和启动游戏
-sidebar_position: 2
+sidebar_position: 3
 ---
 # 账号和启动游戏
 
