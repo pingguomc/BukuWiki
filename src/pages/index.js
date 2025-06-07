@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Minecraft游玩教程">
+      description="Minecraft 游玩教程">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

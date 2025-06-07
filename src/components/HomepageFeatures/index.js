@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/crafting_table.svg').default,
     description: (
       <>
-        从0开始启动你的第一个 Minecraft 客户端，再到安装模组加载器，以及游玩途中的报错你都能在这里找到解决方案
+        从 0 开始启动你的第一个 Minecraft 客户端，再到安装模组加载器，以及游玩途中的报错你都能在这里找到解决方案
       </>
     ),
   },
