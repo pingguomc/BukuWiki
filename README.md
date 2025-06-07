@@ -30,7 +30,11 @@ BukuWiki 是由一群 Minecraft 的社区爱好者一同维护的开源内容 Wi
 
 <h1 align="center">📖开始阅读</h1>
 
-我们使用 [CloudFlare Page](https://pages.cloudflare.com/) 提供的 Pages 构建服务，转到 [docs.buku.wiki](https://docs.buku.wiki/)
+我们使用 [Netlify](https://www.netlify.com/) 提供的构建服务，转到 [docs.buku.wiki](https://docs.buku.wiki/)
+
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" />
+</a>
 
 <h1 align="center">✒️为 Wiki 做出贡献</h1>
 
