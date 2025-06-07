@@ -56,7 +56,7 @@ const config = {
             id: 'docs-pc',
             path: 'docs-pc',
             routeBasePath: 'PC',
-            editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/docs-pc',
+            editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/',
             sidebarPath: './sidebars.js',
             editCurrentVersion: true,
             showLastUpdateAuthor: true,
@@ -72,7 +72,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/docs',
+          editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
