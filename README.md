@@ -20,7 +20,8 @@ Minecraft 玩家们的终极指南
   <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"><img alt="Static Badge" src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-ED592F?style=flat-square&logo=creativecommons"></a>
   <a href="https://github.com/Moralts/BukuWiki/commits/main/"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Moralts/BukuWiki?style=flat-square&logo=github"></a>
   <a href="https://github.com/Moralts/BukuWiki/commits/main/"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Moralts/BukuWiki?style=flat-square&logo=github"></a>
-  <a href="https://pages.cloudflare.com/"><img alt="Static Badge" src="https://img.shields.io/badge/Action-CloudFlare_Pages-F38020?style=flat-square&logo=cloudflarepages"></a>
+  <a href="https://netlify.com/"><img alt="Static Badge" src="https://img.shields.io/badge/Pages-Netlify-%2300C7B7?style=flat-square&logo=netlify"></a>
+  <a href="https://app.netlify.com/projects/buku-wiki/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/afd899bf-7512-49f3-9eab-6432a7902425/deploy-status"></a>
 </p>
 
 <div align="center">
