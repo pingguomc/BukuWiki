@@ -32,7 +32,7 @@ Java 环境对 Minecraft 来说至关重要，是其运行的基础。因为 Min
 |:-:|:-:|:-:|
 |Adoptium OpenJDK | 无 |[Github 下载 (镜像)](https://github.moeyy.xyz/https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.15%2B6/OpenJDK17U-jre_x64_windows_hotspot_17.0.15_6.msi)|
 |Microsoft OpenJDK | 微软搞出来的 OpenJDK|[微软官网下载](https://learn.microsoft.com/en-us/java/openjdk/download)|
-|Azul Zulu OpenJDK | 由Azul公司搞出来的优化过的JDK，这个 JDK 似乎比其他的几个运行效率都要高一点，游戏帧数可能会更高 |[官网下载](https://www.azul.com/downloads/#zulu) [国内镜像INJDK](https://d.injdk.cn/download/zulu)|
+|Azul Zulu OpenJDK | 由 Azul 公司搞出来的优化过的 JDK，这个 JDK 似乎比其他的几个运行效率都要高一点，游戏帧数可能会更高 |[官网下载](https://www.azul.com/downloads/#zulu) [国内镜像INJDK](https://d.injdk.cn/download/zulu)|
 
 ## 安装 Java
 

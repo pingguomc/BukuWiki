@@ -17,4 +17,4 @@ sidebar_position: 1
 - Minecraft Java Edition
 - Minecraft Bedrock Edition
 
-双版本的游玩教程，玩的愉快🥵
+双版本的游玩教程，玩的愉快 🥵
