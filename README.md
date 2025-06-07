@@ -5,7 +5,7 @@
 
 # BukuWiki
 
-Minecraft玩家们的终极指南
+Minecraft 玩家们的终极指南
 
 **（图标灵感来源于开源安卓软件 Shizuku）**
 
@@ -24,22 +24,22 @@ Minecraft玩家们的终极指南
 </p>
 
 <div align="center">
-<h1 align="center">🤔什么是BukuWiki？</h1>
+<h1 align="center">🤔什么是 BukuWiki？</h1>
 
-BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki，旨在为Minecraft玩家提供最完整，最好的游玩指南。
+BukuWiki 是由一群 Minecraft 的社区爱好者一同维护的开源内容 Wiki，旨在为 Minecraft 玩家提供最完整，最好的游玩指南。
 
 <h1 align="center">📖开始阅读</h1>
 
-我们使用[CloudFlare Page](https://pages.cloudflare.com/)提供的Pages构建服务，转到[docs.buku.wiki](https://docs.buku.wiki/)
+我们使用 [CloudFlare Page](https://pages.cloudflare.com/) 提供的 Pages 构建服务，转到 [docs.buku.wiki](https://docs.buku.wiki/)
 
-<h1 align="center">✒️为Wiki做出贡献</h1>
+<h1 align="center">✒️为 Wiki 做出贡献</h1>
 
 **请认真阅读 BukuWiki 的 [编写规范](https://docs.buku.wiki/write-specifications)**
 
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 克隆到本地后，自己修改需要修改的部分
-3. 在本地build成功且预期符合之后，再进行提交PR合并
-4. 等待Dev和所有者审核更改后并入主线
+3. 在本地 Build 成功且预期符合之后，再进行提交PR合并
+4. 等待 Dev 和所有者审核更改后并入主线
 
 <h1 align="center">🌸贡献者</h1>
 
@@ -49,7 +49,7 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
   <img src="https://contrib.rocks/image?repo=Moralts/Bukuwiki" />
 </a>
 
-<h1 align="center">🌟Stars历史图</h1>
+<h1 align="center">🌟Stars 历史图</h1>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Moralts/BukuWiki&type=Date)](https://www.star-history.com/#Moralts/BukuWiki&Date)
 
