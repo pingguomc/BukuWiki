@@ -7,11 +7,11 @@ sidebar_position: 2
 
 本篇可以帮助你快速选择你所在平台的游玩版本和游玩教程。
 
-## 我是PC？
+## 我是 PC？
 
 你可以选择：
 
-- **Java Edition For PC** 通常大家说的 “电脑端” 一般指的就是Java版本，也是 Minecraft 的起源
+- **Java Edition For PC** 通常大家说的 “电脑端” 一般指的就是 Java 版本，也是 Minecraft 的起源
 - **Bedrock Edition For PC** 通常大家所说的 “基岩版” 便是这个版本，是 Mojang 为了适配全平台制作的版本
 
 **我应该选择基岩版还是 Java 版？** 如果你想游玩各种模组，那么建议你选择 Java 版。Java 版拥有庞大的社区和生态，很多国外知名服务器如 Hypixel 也是 Java 版的。如果你想与移动端的朋友们更方便的联机，或者想体验一下基岩版的 Add-ons，可以选择基岩版。基岩版的优化也更好一些。
