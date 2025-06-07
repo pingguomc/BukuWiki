@@ -21,7 +21,7 @@ const config = {
           rspackPersistentCache: true, // new flag
       },
   },
-  
+
   // Set the production url of your site here
   url: 'https://docs.buku.wiki',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -97,6 +97,15 @@ const config = {
       },
       // 原生配置文件
       image: 'img/docusaurus-social-card.jpg',
+      announcementBar: {
+        id: 'beta',
+        content:
+          '🚧 文档仍然有许多的内容尚未补全，我们正在持续补充内容，你可以在 <a href="https://github.com/Moralts/BukuWiki/">Github</a> 上一起编写 🚧',
+        backgroundColor: '#f8d75a',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
+
       navbar: {
         title: 'BukuWiki',
         logo: {
