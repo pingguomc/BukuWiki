@@ -34,6 +34,7 @@ BukuWiki是由一群Minecraft的社区爱好者一同维护的开源内容Wiki�
 
 <h1 align="center">✒️为Wiki做出贡献</h1>
 
+**请认真阅读 BukuWiki 成品文档内 通用-编写规范**
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 克隆到本地后，自己修改需要修改的部分
 3. 在本地build成功且预期符合之后，再进行提交PR合并
