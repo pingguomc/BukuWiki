@@ -1,2 +1,11 @@
-node_modules
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
 .docusaurus
+
+# IDE
+.idea
