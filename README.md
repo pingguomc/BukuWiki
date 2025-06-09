@@ -39,7 +39,7 @@ BukuWiki 是由一群 Minecraft 的社区爱好者一同维护的开源内容 Wi
 
 <h1 align="center">✒️为 Wiki 做出贡献</h1>
 
-**请认真阅读 BukuWiki 的 [编写规范](https://docs.buku.wiki/write-specifications)**
+**请认真阅读 BukuWiki 的 [编写规范](https://docs.buku.wiki/write-specifications) 以及 [贡献者条约](https://docs.buku.wiki/contributor-conventions)**
 
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 克隆到本地后，自己修改需要修改的部分
