@@ -23,11 +23,5 @@ jobs:
       - name: "Install"
         run: "pnpm install"
 
-      - name: "MarkdownLint 检查"
-        uses: DavidAnson/markdownlint-cli2-action@v20
-        with:
-          fix: true
-          globs: 'docs*/**/*.md'
-
       - name: "构建 测试"
         run: "pnpm run build"

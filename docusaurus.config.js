@@ -151,6 +151,10 @@ const config = {
                 label: '贡献者条约',
                 to: '/contributor-conventions',
               },
+              {
+                label: '许可声明',
+                to: '/LICENSE'
+              },
             ],
           },
           {
@@ -166,7 +170,7 @@ const config = {
             title: '更多',
             items: [
               {
-                label: 'GitHub',
+                label: '本项目 GitHub 仓库',
                 href: 'https://github.com/Moralts/BukuWiki',
               },
               {
@@ -176,10 +180,13 @@ const config = {
                 </a>
               `,
               },
+              {
+                html: `<a href="https://ipw.cn/ssl/?site=docs.buku.wiki" title="本站支持SSL安全访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持SSL安全访问" src="https://static.ipw.cn/icon/ssl-s1.svg"></a><a href="https://ipw.cn/ipv6webcheck/?site=docs.buku.wiki" title="本站支持IPv6访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-s1.svg"></a>`,
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <b>BukuTeam And Github Contributors</b>. All Rights Reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <b>by BukuTeam And Github Contributors</b>. <a href="/LICENSE">LICENSE</a>.`,
       },
       prism: {
         theme: prismThemes.github,
