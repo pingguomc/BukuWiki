@@ -147,6 +147,10 @@ const config = {
                 label: 'PC',
                 to: '/PC/intro',
               },
+              {
+                label: '贡献者条约',
+                to: '/contributor-conventions',
+              },
             ],
           },
           {
