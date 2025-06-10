@@ -8,6 +8,12 @@ You are free to:
     Adapt — remix, transform, and build upon the material
     The licensor cannot revoke these freedoms as long as you follow the license terms.
 
+您可以自由地：
+
+    共享 — 以任何媒体或格式复制和重新分发材料
+    适应 — 重新混合、转换和构建素材
+    只要您遵守许可条款，许可方就无法撤销这些自由。
+
 Under the following terms:
 
     Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
@@ -15,26 +21,19 @@ Under the following terms:
     ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
     No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-您可以自由地：
-
-    共享 — 以任何媒体或格式复制和重新分发材料
-    适应 — 重新混合、转换和构建素材
-    只要您遵守许可条款，许可方就无法撤销这些自由。
 
 根据以下条款：
 
     归 因 — 您必须给予 适当的信用 ，提供许可证的链接，以及 指示是否进行了更改 .您可以以任何合理的方式进行此类作，但不得以任何方式暗示许可方认可您或您的使用。
-    
     非商业性 — 您不得将材料用于 商业用途 .
-    
     相同方式共享 — 如果您重新混合、转换或基于这些材料进行构建，则必须在 相同的许可证 作为原始文件。
-    
     无额外限制 — 您不得应用法律条款或 技术措施 在法律上限制其他人做许可证允许的任何事情。
-
-你可以通过这个链接来了解 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)，也可以查看下方的转载。
 
 You can learn more about [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) at this link, or check out the reprint below.
 
+你可以通过这个链接来了解 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)，也可以查看下方的转载。
+
+---
 Attribution-NonCommercial-ShareAlike 4.0 International
 
 =======================================================================
