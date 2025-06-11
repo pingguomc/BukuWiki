@@ -105,7 +105,12 @@ const config = {
         textColor: '#091E42',
         isCloseable: false,
       },
-
+      algolia: {
+        appId: 'EK86IMAOMJ',
+        apiKey: '80e060bceeb14c15260c72a7f2cec366',
+        indexName: 'buku',
+        contextualSearch: true,
+      },
       navbar: {
         title: 'BukuWiki',
         logo: {
