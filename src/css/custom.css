@@ -1,10 +1,4 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/* 全局主题 */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -17,7 +11,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -28,3 +21,43 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 标题栏阴影 */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 标题增强 */
+.navbar__brand {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* 二级标题下划线 */
+.markdown h2 {
+  border-bottom: 2px solid var(--ifm-color-primary);
+  padding-bottom: 0.5rem;
+}
+
+/* 页脚新主题 */
+.footer {
+  --ifm-footer-background-color: #f6f6f6;
+  --ifm-footer-color: #666666;
+  --ifm-footer-link-color: #606770;
+  --ifm-footer-title-color: #444444;
+  padding: 3rem 0;
+}
+
+[data-theme='dark'] .footer {
+  --ifm-footer-background-color: #242526;
+  --ifm-footer-color: #e3e3e3;
+  --ifm-footer-link-color: #bec3c9;
+  --ifm-footer-title-color: #ffffff;
+}
+
+.footer__link:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
