@@ -1,23 +1,36 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import PageLoader from '@site/src/components/PageLoader';
+import FloatingElements from '@site/src/components/FloatingElements';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const [isVisible, setIsVisible] = useState(false);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => setIsVisible(true), 1200);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner, {
+      [styles.heroVisible]: isVisible
+    })}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className={clsx('hero__title', styles.titleAnimation)}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <p className={clsx('hero__subtitle', styles.subtitleAnimation)}>
+          {siteConfig.tagline}
+        </p>
+        <div className={clsx(styles.buttons, styles.buttonAnimation)}>
           <Link
             className="button button--secondary button--lg"
             to="/intro">
@@ -30,20 +43,27 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+
   useEffect(() => {
-    const element = document.querySelector('.main-wrapper');
-    element.classList.add('page-transition', 'page-entering');
-    
-    setTimeout(() => {
-      element.classList.remove('page-entering');
-      element.classList.add('page-entered');
-    }, 50);
+    // 页面进入动画
+    const mainWrapper = document.querySelector('.main-wrapper');
+    if (mainWrapper) {
+      mainWrapper.classList.add('page-transition', 'page-entering');
+      
+      setTimeout(() => {
+        mainWrapper.classList.remove('page-entering');
+        mainWrapper.classList.add('page-entered');
+      }, 100);
+    }
   }, []);
 
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Minecraft 游玩教程">
+      <PageLoader />
+      <FloatingElements />
       <HomepageHeader />
       <main>
         <HomepageFeatures />
