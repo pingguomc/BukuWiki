@@ -1,11 +1,18 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.featureCard {
+  transition: all 0.9s cubic-bezier(0.2, 0.8, 0.4, 1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0));
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(8px);
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureCard.animate-in {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, 
+    var(--ifm-color-primary-lighter)10%, 
+    var(--ifm-color-primary-lightest) 90%
+  );
+  border-color: rgba(255,255,255,0.2);
 }

@@ -15,7 +15,16 @@ function HomepageHeader() {
   const [isVisible, setIsVisible] = useState(false);
   
   useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 1200);
+    // 优化动画触发时序
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+      // 触发子元素动画
+      document.querySelectorAll('.hero__title span').forEach((el, i) => {
+        setTimeout(() => {
+          el.classList.add('letter-reveal');
+        }, i * 150);
+      });
+    }, 800);
     return () => clearTimeout(timer);
   }, []);
 
@@ -25,7 +34,9 @@ function HomepageHeader() {
     })}>
       <div className="container">
         <Heading as="h1" className={clsx('hero__title', styles.titleAnimation)}>
-          {siteConfig.title}
+          {siteConfig.title.split('').map((char, i) => (
+            <span key={i} className={styles.letter}>{char}</span>
+          ))}
         </Heading>
         <p className={clsx('hero__subtitle', styles.subtitleAnimation)}>
           {siteConfig.tagline}

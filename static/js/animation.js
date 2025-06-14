@@ -1,30 +1,79 @@
+// 新增文字渐现动画
 document.addEventListener('DOMContentLoaded', () => {
-  // 为目录添加展开动画
+  // 侧边栏动画优化
   const sidebarItems = document.querySelectorAll('.menu__list-item');
   sidebarItems.forEach((item, index) => {
     item.style.opacity = '0';
-    item.style.transform = 'translateX(-10px)';
-    item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+    item.style.transform = 'translateX(-20px)';
+    item.style.transition = `
+      opacity 0.5s ease-out, 
+      transform 0.5s ease-out,
+      background-color 0.3s ease
+    `;
     
     setTimeout(() => {
-      item.style.opacity = '1';
+      item.style.opacity = '0.9';
       item.style.transform = 'translateX(0)';
-    }, 50 + index * 30);
+      item.style.backgroundColor = '#f5f5f5';
+    }, 100 + index * 50);
   });
-  
-  // 为代码块添加高亮效果
+
+  // 文字渐现效果
+  const fadeElements = document.querySelectorAll('h1, h2, h3, p');
+  fadeElements.forEach((el, index) => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+    
+    setTimeout(() => {
+      el.style.opacity = '1';
+      el.style.transform = 'translateY(0)';
+    }, 300 + index * 100);
+  });
+
+  // 代码块增强动画
   const codeBlocks = document.querySelectorAll('pre');
   codeBlocks.forEach(block => {
+    block.style.position = 'relative';
+    block.style.overflow = 'hidden';
+    
+    // 创建脉冲动画层
+    const pulseLayer = document.createElement('div');
+    pulseLayer.style.cssText = `
+      position: absolute;
+      top: -50%; left: -50%;
+      width: 200%; height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+      transform: rotate(45deg);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    `;
+    block.appendChild(pulseLayer);
+
     block.addEventListener('mouseenter', () => {
-      block.style.transform = 'scale(1.01)';
-      block.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
+      pulseLayer.style.opacity = '1';
+      pulseLayer.style.animation = 'pulse 1.5s ease-out';
+      block.style.boxShadow = '0 12px 30px rgba(0,0,0,0.2)';
     });
     
     block.addEventListener('mouseleave', () => {
-      block.style.transform = 'scale(1)';
+      pulseLayer.style.opacity = '0';
       block.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
     });
-    
-    block.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+
+    // 新增点击脉冲效果
+    block.addEventListener('click', () => {
+      block.style.animation = 'pulse 0.6s ease-out';
+      setTimeout(() => {
+        block.style.animation = '';
+      }, 600);
+    });
   });
 });
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}

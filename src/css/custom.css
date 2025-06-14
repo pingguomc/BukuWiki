@@ -1,24 +1,23 @@
 /* 全局主题 */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #28a77f; /* 改为主蓝绿色 */
+  --ifm-color-primary-dark: #239770;
+  --ifm-color-primary-darker: #1f8b66;
+  --ifm-color-primary-darkest: #177153;
+  --ifm-color-primary-light: #2fc29b;
+  --ifm-color-primary-lighter: #3acaa6;
+  --ifm-color-primary-lightest: #4ddac6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #1de9b6; /* 暗色模式调整为亮青色 */
+  --ifm-color-primary-dark: #1ad9a0;
+  --ifm-color-primary-darker: #15c58d;
+  --ifm-color-primary-darkest: #0f9e70;
+  --ifm-color-primary-light: #2ce2c1;
+  --ifm-color-primary-lighter: #3bead0;
+  --ifm-color-primary-lightest: #5cf2db;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -39,26 +38,63 @@
   padding-bottom: 0.5rem;
 }
 
-/* 页脚新主题 */
+/* 修改页脚样式 */
 .footer {
   --ifm-footer-background-color: #f6f6f6;
   --ifm-footer-color: #666666;
   --ifm-footer-link-color: #606770;
   --ifm-footer-title-color: #444444;
   padding: 3rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 -1px 10px rgba(0,0,0,0.05);
 }
 
+/* 添加字体优化 */
+.footer,
+.footer__link,
+.footer__title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+}
+
+/* 增强悬停动态效果 */
+.footer__link:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* 暗色模式优化 */
 [data-theme='dark'] .footer {
   --ifm-footer-background-color: #242526;
   --ifm-footer-color: #e3e3e3;
   --ifm-footer-link-color: #bec3c9;
   --ifm-footer-title-color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -1px 10px rgba(255,255,255,0.05);
 }
 
-.footer__link:hover {
-  color: var(--ifm-color-primary);
-  text-decoration: none;
-  transition: color 0.2s ease;
+/* 添加链接悬停涟漪效果 */
+.footer__link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  background: rgba(var(--ifm-color-primary-rgb), 0.3);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+}
+
+.footer__link:hover::after {
+  width: 100%;
+  height: 10px;
+  opacity: 0.5;
 }
 
 /* 页面过渡动画 */
@@ -76,16 +112,16 @@
   opacity: 1;
 }
 
-/* 滚动动画 */
+/* 修改滚动动画部分，避免内容不可见 */
 .markdown h2, .markdown h3, .markdown p, .markdown img {
-  opacity: 0;
-  transform: translateY(20px);
+  /* 删除初始隐藏设置，保持内容可见 */
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.markdown .animate-in {
-  opacity: 1;
-  transform: translateY(0);
+/* 新增强制可见性样式 */
+.markdown :not(h2):not(h3):not(p):not(img) {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
 
 /* 导航栏动画 */
@@ -109,6 +145,8 @@
   transition: width 0.3s ease;
 }
 
+/* 调整导航栏下划线动画 */
 .navbar__item:hover:after {
   width: 100%;
+  background-color: var(--ifm-color-primary); /* 保持颜色一致性 */
 }

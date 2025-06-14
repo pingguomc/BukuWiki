@@ -26,16 +26,25 @@ const FeatureList = [
 
 function Feature({Svg, title, description, delay}) {
   const featureRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setTimeout(() => {
-            setIsVisible(true);
+            if (featureRef.current) {
+              featureRef.current.classList.add('animate-in');
+              requestAnimationFrame(() => {
+                // 添加缩放动画和阴影效果
+                featureRef.current.style.transform = 'scale(1.05)';
+                featureRef.current.style.boxShadow = '0 10px 30px rgba(0,0,0,0.15)';
+                featureRef.current.style.transition = `
+                  all 0.8s cubic-bezier(0.17, 0.67, 0.83, 0.67),
+                  transform 1.2s cubic-bezier(0.34, 1.56, 0.64, 1)
+                `;
+              });
+            }
           }, delay);
-          observer.disconnect();
         }
       },
       { threshold: 0.2 }
@@ -50,10 +59,9 @@ function Feature({Svg, title, description, delay}) {
 
   return (
     <div 
-      className={clsx('col col--4', styles.feature, {
-        [styles.featureVisible]: isVisible
-      })} 
+      className={clsx('col col--4', styles.featureCard)} 
       ref={featureRef}
+      style={{ transitionDelay: `${delay}ms` }} // 添加延迟样式
     >
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
