@@ -84,6 +84,22 @@ const config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        src: 'https://cdn.jsdmirror.cn/npm/pace-js@latest/pace.min.js',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdmirror.cn/npm/pace-js@latest/themes/green/pace-theme-minimal.min.css',
+      },
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     // 插件配置文件
