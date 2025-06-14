@@ -70,6 +70,24 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 600);
     });
   });
+
+  // 添加文档切换动画检测
+  const docRoot = document.querySelector('.markdown');
+  if (docRoot) {
+    // 强制重绘以重新触发动画
+    requestAnimationFrame(() => {
+      docRoot.style.opacity = '1';
+    });
+  }
+
+  // 新增实时滚动阴影效果
+  const markdownContent = document.querySelector('.markdown');
+  if (markdownContent) {
+    markdownContent.addEventListener('scroll', () => {
+      const scrollTop = markdownContent.scrollTop;
+      markdownContent.style.boxShadow = `0 ${Math.min(scrollTop/10, 5)}px ${Math.min(scrollTop/5, 10)}px rgba(0,0,0,0.1)`;
+    });
+  }
 });
 
 @keyframes pulse {
