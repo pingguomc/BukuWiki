@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -29,7 +30,16 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  useEffect(() => {
+    const element = document.querySelector('.main-wrapper');
+    element.classList.add('page-transition', 'page-entering');
+    
+    setTimeout(() => {
+      element.classList.remove('page-entering');
+      element.classList.add('page-entered');
+    }, 50);
+  }, []);
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}

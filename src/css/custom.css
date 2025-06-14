@@ -61,3 +61,54 @@
   transition: color 0.2s ease;
 }
 
+/* 页面过渡动画 */
+.page-transition {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* 初始状态 */
+.page-entering {
+  opacity: 0;
+}
+
+/* 最终状态 */
+.page-entered {
+  opacity: 1;
+}
+
+/* 滚动动画 */
+.markdown h2, .markdown h3, .markdown p, .markdown img {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.markdown .animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 导航栏动画 */
+.navbar__items {
+  position: relative;
+}
+
+.navbar__item {
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.navbar__item:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--ifm-navbar-link-hover-color);
+  transition: width 0.3s ease;
+}
+
+.navbar__item:hover:after {
+  width: 100%;
+}
