@@ -1,23 +1,129 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.titleAnimation {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInRight 0.5s ease-out 1.4s forwards;
+}
+
+.subtitleAnimation {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInRight 0.5s ease-out 1.6s forwards;
+}
+
+.buttonAnimation {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInRight 0.5s ease-out 1.8s forwards;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.buttons .button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  background: linear-gradient(45deg, #ffffff10, #ffffff00);
+}
+
+.buttons .button:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 
+    0 12px 25px rgba(0,0,0,0.2),
+    0 0 15px rgba(255,255,255,0.3) inset;
+  border-color: rgba(255,255,255,0.5);
+}
+
+/* 新增光效动画 */
+@keyframes shimmer {
+  0% { transform: translateX(-100%) rotate(45deg); opacity: 0; }
+  50% { opacity: 0.6; }
+  100% { transform: translateX(100%) rotate(45deg); opacity: 0; }
+}
+
+.buttons .button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    rgba(255,255,255,0.1) 0%,
+    rgba(255,255,255,0.3) 50%,
+    rgba(255,255,255,0.1) 100%
+  );
+  animation: shimmer 3s infinite ease-in-out;
+  pointer-events: none;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -150%;
+  width: 400%;
+  height: 300%;
+  background: url('data:image/svg+xml,<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><g fill="%23ffffff" fill-opacity="0.05"><rect width="12" height="12"/></g></svg>');
+  background-size: 30px 30px;
+  pointer-events: none;
+}
+
+/* 增强内容切换动画 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.content-fade {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes slideInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+  
+  .buttons {
+    flex-direction: column;
+  }
+  
+  .buttons .button {
+    width: 100%;
+    max-width: 300px;
+  }
 }

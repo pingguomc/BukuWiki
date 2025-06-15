@@ -1,11 +1,17 @@
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  margin-top: 50px;
+  margin-bottom: -30px;  /* 添加底部边距 */
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureCard {
+  transition: all 0.9s cubic-bezier(0.2, 0.8, 0.4, 1);
+  border-radius: 10px;
+  padding: 1rem;
+  background: transparent;
+  pointer-events: none;
+}
+
+.featureCard.animate-in {
+  transform: scale(1.03) translateY(-5px);
+  background: transparent;
 }
