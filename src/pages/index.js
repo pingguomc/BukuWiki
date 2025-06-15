@@ -4,9 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import PageLoader from '@site/src/components/PageLoader';
 import FloatingElements from '@site/src/components/FloatingElements';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -73,7 +71,6 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Minecraft 游玩教程">
-      <PageLoader />
       <FloatingElements />
       <HomepageHeader />
       <main>
