@@ -113,15 +113,50 @@
 }
 
 /* 修改滚动动画部分，避免内容不可见 */
-.markdown h2, .markdown h3, .markdown p, .markdown img {
-  /* 删除初始隐藏设置，保持内容可见 */
-  transition: opacity 0.5s ease, transform 0.5s ease;
+
+/* 添加文档切换动画 */
+@keyframes docTransition {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 
-/* 新增强制可见性样式 */
-.markdown :not(h2):not(h3):not(p):not(img) {
+/* 应用到所有markdown内容区域 */
+
+/* 增加过渡延迟避免同时动画 */
+
+/* 精确的元素动画，避免影响代码块 */
+.markdown > h1, 
+.markdown > h2:not(.anchor), 
+.markdown > h3:not(.anchor), 
+.markdown > p:not([class]) {
+  opacity: 0;
+  animation: slideInUp 0.6s ease-out forwards;
+}
+
+.markdown > h1 { animation-delay: 0.2s; }
+.markdown > h2 { animation-delay: 0.4s; }
+.markdown > p { animation-delay: 0.6s; }
+
+/* 确保代码相关元素正常显示 */
+.markdown pre,
+.markdown code,
+.markdown .prism-code,
+.markdown .theme-code-block,
+.markdown .theme-code-block button {
   opacity: 1 !important;
-  transform: translateY(0) !important;
+  animation: none !important;
+  transition: opacity 0.2s ease !important;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* 导航栏动画 */
@@ -149,38 +184,4 @@
 .navbar__item:hover:after {
   width: 100%;
   background-color: var(--ifm-color-primary); /* 保持颜色一致性 */
-}
-
-/* 添加文档切换动画 */
-@keyframes docTransition {
-  0% { opacity: 0; transform: translateY(10px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-/* 应用到所有markdown内容区域 */
-.markdown {
-  opacity: 0;
-  animation: docTransition 0.8s ease-out forwards;
-  will-change: opacity, transform;
-}
-
-/* 增加过渡延迟避免同时动画 */
-.markdown h1, .markdown h2, .markdown p {
-  opacity: 0;
-  animation: slideInUp 0.6s ease-out forwards;
-}
-
-.markdown h1 { animation-delay: 0.2s; }
-.markdown h2 { animation-delay: 0.4s; }
-.markdown p { animation-delay: 0.6s; }
-
-@keyframes slideInUp {
-  from {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
