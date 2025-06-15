@@ -55,16 +55,6 @@
 .footer__link,
 .footer__title {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.95rem;
-}
-
-/* 增强悬停动态效果 */
-.footer__link:hover {
-  color: var(--ifm-color-primary);
-  text-decoration: none;
-  transform: scale(1.05) translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  transition: all 0.3s ease-in-out;
 }
 
 /* 暗色模式优化 */
@@ -157,7 +147,7 @@
 /* 新增从左到右的动画 */
 @keyframes slideInRight {
   from {
-    transform: translateX(-40px);
+    transform: translateX(-30px);
     opacity: 0;
   }
   to {
