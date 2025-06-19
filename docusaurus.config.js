@@ -84,6 +84,22 @@ const config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        src: 'https://cdn.jsdmirror.cn/npm/pace-js@latest/pace.min.js',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdmirror.cn/npm/pace-js@latest/themes/green/pace-theme-minimal.min.css',
+      },
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     // 插件配置文件
@@ -105,7 +121,12 @@ const config = {
         textColor: '#091E42',
         isCloseable: false,
       },
-
+      algolia: {
+        appId: 'EK86IMAOMJ',
+        apiKey: '80e060bceeb14c15260c72a7f2cec366',
+        indexName: 'buku',
+        contextualSearch: true,
+      },
       navbar: {
         title: 'BukuWiki',
         logo: {
