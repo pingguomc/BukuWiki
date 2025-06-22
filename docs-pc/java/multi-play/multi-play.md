@@ -1,9 +1,10 @@
 ---
 title: 多人游戏
-slug: /more/multi-play
-sidebar_position: 1
+slug: /multi-play
+sidebar_position: 7
 ---
 
+import DocCardList from '@theme/DocCardList';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -12,6 +13,10 @@ import TabItem from '@theme/TabItem';
 也许你厌倦了一个人玩游戏的无聊和没有新鲜感；也许你想和其他玩家一起探索世界；也许你喜欢激烈的战斗或者战术的博弈；也许你想要一个热闹的氛围。
 
 不管怎样，首先恭喜你解锁了 `多人游戏板块`。在这里，我们将会一起了解 [`联机`](#联机) 和 [`服务器`](#服务器)。
+
+该目录下有一些多人游戏的玩法介绍。
+
+<DocCardList />
 
 ## 联机
 
